@@ -16,7 +16,6 @@ if python3 --version &>/dev/null; then
     pip install -r requirements.txt -q &&
     echo "Downloading Japanese/Chinese tokenizer..." &&
     python -m unidic download
-  python vixtts_demo.py
 else
   echo "Python version $PYTHON_VERSION is not installed. Please install it."
 fi
